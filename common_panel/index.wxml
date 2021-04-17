@@ -1,0 +1,42 @@
+<!--miniprogram/pages/home_center/common_panel/index.js.wxml-->
+<wxs src="./index.wxs" module="utils" />
+
+
+
+<image class="common-panel-backgroud" src="red" />
+<navbar device_name="智能插座" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+
+
+<image class="top_image" src='/image/充电.png' ></image>
+
+
+<view class="header">
+  <!-- 代码 -->
+  <image class="bg_ware" src="https://moyv.top/wechat/images/bg_wave.gif"></image>
+</view>
+
+<view class='center_col' style="position: fixed; left: 3rpx; top: 954rpx; width: 750rpx; height: 200rpx; display: flex; box-sizing: border-box">
+  
+  <!--电压 -->
+	<view class='center_block'>
+    <view style="width: 136rpx; height: 61rpx; display: block; box-sizing: border-box; position: relative; left: 15rpx; top: 64rpx">电压</view>
+    <view style="width: 136rpx; height: 61rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 83rpx">220.0v</view>
+  </view>
+  <!--功率 -->
+	<view class='center_block' style="position: relative; left: 0rpx; top: 0rpx">
+    <view style="width: 136rpx; height: 61rpx; display: block; box-sizing: border-box; position: relative; left: 22rpx; top: 64rpx">功率</view>
+    <view style="width: 136rpx; height: 75rpx; display: block; box-sizing: border-box; position: relative; left: 19rpx; top: 85rpx">0.0w</view>
+  </view>
+  <!--电流-->
+	<view class='center_block' style="width: 162rpx; height: 190rpx; display: flex; box-sizing: border-box">
+    <view style="width: 136rpx; height: 61rpx; display: block; box-sizing: border-box; position: relative; left: 8rpx; top: 59rpx">电流</view>
+    <view style="position: relative; left: -15rpx; top: 85rpx">0mA</view>
+	</view>
+</view>
+
+
+<view class="switch">
+
+  <view >开关</view>
+
+</view>
